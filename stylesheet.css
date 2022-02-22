@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+  }
+  .container {
+    background: #ff3f34;
+    display: flex;
+    color: #fff;
+    padding: 10px;
+  }
+  .image-left {
+    background-image: linear-gradient(225deg, transparent 95%, #ff3f34 0),
+      url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
+    background-repeat: no-repeat;
+    flex: 50%;
+  }
+  .text-right {
+    background-color: #fff;
+    flex: 50%;
+    color: #000;
+    padding: 20px;
+    padding-bottom: 20px;
+  }
+  div h1 {
+    color: #000;
+    font-size: 1.2em;
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(255, 0, 0);
+    }
+
+  }
